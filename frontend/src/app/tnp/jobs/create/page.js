@@ -129,11 +129,11 @@ export default function CreateJobPage() {
                                 />
 
                                 <Input
-                                    label="Package"
+                                    label="Package (LPA)"
                                     name="package"
                                     value={form.package}
                                     onChange={handleChange}
-                                    placeholder="e.g. 12 LPA"
+                                    placeholder="e.g. 12"
                                 />
 
                                 <Input
